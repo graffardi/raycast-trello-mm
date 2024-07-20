@@ -3,7 +3,7 @@
   "name": "raycast-trello-mm",
   "title": "Raycast Trello MM",
   "description": "This repository contains the code for a Raycast x Trello integration for Monkey Management. 🐒",
-  "icon": "command-icon.png",
+  "icon": "extension-icon.png",
   "author": "graffardi",
   "categories": [
     "Productivity"
@@ -11,9 +11,35 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
+      "icon": "later-icon.png",
+      "name": "later",
+      "title": "Later - List cards",
+      "subtitle": "Trello Monkey Management",
+      "description": "List cards from the \"Later\" list.",
+      "mode": "view"
+    },
+    {
+      "icon": "to-do-icon.png",
+      "name": "toDo",
       "title": "To do - List cards",
+      "subtitle": "Trello Monkey Management",
       "description": "List cards from the \"To do\" list.",
+      "mode": "view"
+    },
+    {
+      "icon": "blocked-icon.png",
+      "name": "blocked",
+      "title": "Blocked - List cards",
+      "subtitle": "Trello Monkey Management",
+      "description": "List cards from the \"Blocked\" list.",
+      "mode": "view"
+    },
+    {
+      "icon": "done-icon.png",
+      "name": "doneOrCancelled",
+      "title": "Done / Cancelled - List cards",
+      "subtitle": "Trello Monkey Management",
+      "description": "List cards from the \"Done / Cancelled\" list.",
       "mode": "view"
     }
   ],

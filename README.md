@@ -10,4 +10,4 @@
 
 This repository contains the code for a Raycast x Trello integration for Monkey Management. 🐒
 
-Initial monkey asset link: [here](https://iconduck.com/emojis/36437/monkey).
+Initial monkey asset link [here](https://iconduck.com/emojis/36437/monkey).
